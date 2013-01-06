@@ -3,10 +3,12 @@ TMUX GLOBAL CONFIG FILE
 
 #Using the global TMUX config file
 <pre><code>
-1. git clone .....
+1. https://github.com/jbpadgett/tmux-config.git
 
 2. cp .tmux.conf ~/
+
 </pre></code>
+
 
 
 #Usage Notes
