@@ -8,8 +8,8 @@ cp .tmux.conf ~/
 ```
 
 ##Usage Notes
-Put everything global here:   ~/.tmux.conf  
-Put environment specific tmux config here:   ~/.tmux/<purposename>  
+Put everything global here:  ```~/.tmux.conf```  
+Put environment specific tmux config here:  ```~/.tmux/<purposename>```  
 
 *Example:*
 ```
