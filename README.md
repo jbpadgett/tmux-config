@@ -6,25 +6,25 @@ TMUX GLOBAL CONFIG FILE
 https://github.com/jbpadgett/tmux-config.git
 
 cp .tmux.conf ~/
-</pre></code>
+</pre></code>  
 
 
 
 #Usage Notes
-Put everything global here:  ~/.tmux.conf
-Put environment specific tmux config here:  ~/.tmux/<purposename>
+Put everything global here:  ~/.tmux.conf  
+Put environment specific tmux config here:  ~/.tmux/<purposename>  
 
 *Example:*  
-<pre><code>
-~/.tmux/chef
-~/.tmux/myproject
-</pre></code>
+<pre><code>  
+~/.tmux/chef  
+~/.tmux/myproject  
+</pre></code>  
 
 # Initialize custom session configs
-<pre><code>
-bind S source-file ~/.tmux/session1
-bind s source-file ~/.tmux/session2
-</pre></code>
+<pre><code>  
+bind S source-file ~/.tmux/session1  
+bind s source-file ~/.tmux/session2  
+</pre></code>  
 
 
 
