@@ -1,0 +1,13 @@
+# Using tmux config from: https://github.com/gpakosz/.tmux
+####################
+# Setup Instructions
+####################
+
+#$ git clone https://github.com/gpakosz/.tmux.git
+#$ ln -s -f .tmux/.tmux.conf
+#$ cp .tmux/.tmux.conf.local .
+
+# 1. Keep a symlink to ~.tmux/.tmux.conf to enable git pull updates
+# 2. Customize only the ~/.tmux.conf.local which merges with ~/.tmux.conf
+
+

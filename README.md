@@ -1,4 +1,4 @@
-TMUX Global Config File
+TMUX Config File
 ========================
 
 ##Using the global TMUX config file
@@ -6,16 +6,16 @@ TMUX Global Config File
 git clone https://github.com/jbpadgett/tmux-config.git
 cp .tmux.conf ~/
 ```
-
 ##Usage Notes
-Put everything global here:  ```~/.tmux.conf```  
-Put environment specific tmux config here:  ```~/.tmux/<purposename>```  
+Using tmux config from: https://github.com/gpakosz/.tmux
+The tmux config file from ```@gpakosz``` is used to provide visual features like the powerline theme.
+As a pre-requisite, the following additional steps must be done.
+0. Clone the https://github.com/gpakosz/.tmux repo.
+1. Keep a symlink to ```~.tmux/.tmux.conf``` to enable git pull updates.
+2. Customize only the ```~/.tmux.conf.local``` which is merged into the main one.
+    a. The customizations I use are in ```~/.tmux.conf.local``` which include things like:  removing battery indicator, enabling osx copy/paste.
 
-*Example:*
-```
-~/.tmux/chef  
-~/.tmux/myproject  
-```
+
 
 ##Initialize custom session configs
 ```
